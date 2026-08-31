@@ -1,0 +1,8 @@
+{
+  "name": "寄せの手筋①②③④⑤　クリア登録版",
+  "description": "クリア登録リンク実装",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
