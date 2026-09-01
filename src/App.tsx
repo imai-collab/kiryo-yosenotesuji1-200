@@ -26,7 +26,7 @@ const INITIAL_PROBLEMS: Problem[] = (problemsData as any).problems || ((problems
 
 export default function App() {
   const defaultTitle = (problemsData as any).appTitle || '詰将棋マスター';
-  const defaultClearUrl = (problemsData as any).clearUrl || 'https://ais-pre-x5hnwaz6bcxstyuj6qxrfz-87151204104.asia-northeast1.run.app/complete?book=01';
+  const defaultClearUrl = (problemsData as any).clearUrl || 'https://service-8830.ai.studio/complete?book=01';
   const [appTitle, setAppTitle] = useState(defaultTitle);
   const [clearUrl, setClearUrl] = useState<string>(defaultClearUrl);
   const [isEditingTitle, setIsEditingTitle] = useState(false);
